@@ -1,0 +1,9 @@
+.\objects\cli.o: ..\M480_BSP\ThirdParty\lwesp\lwesp\src\cli\cli.c
+.\objects\cli.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\cli.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cli.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\cli.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\cli.o: ..\M480_BSP\ThirdParty\lwesp\lwesp\src\include\cli/cli.h
+.\objects\cli.o: ..\M480_BSP\ThirdParty\lwesp\lwesp\src\include\cli/cli_opt.h
+.\objects\cli.o: ..\M480_BSP\ThirdParty\lwesp\lwesp\src\include\lwesp/lwesp_opt.h
+.\objects\cli.o: ..\M480_BSP\ThirdParty\lwesp\lwesp\src\include\lwesp/lwesp_debug_types.h
