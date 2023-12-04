@@ -1,3 +1,5 @@
 [submodule "M480_BSP\\ThirdParty\\lwesp"]
 	path = M480_BSP\\ThirdParty\\lwesp
 	url = ./M480_BSP\\ThirdParty\\lwesp
+[submodule "./M480_BSP\\ThirdParty\\lwesp"]
+	url = https://github.com/turgayhopal/lwesp.git
