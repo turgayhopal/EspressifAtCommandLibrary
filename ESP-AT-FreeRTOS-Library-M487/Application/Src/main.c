@@ -76,8 +76,6 @@ void vWifiTask(void *pvParameters) {
 	
 	/* Task Loop */
 	
-	bool led_stat = false;
-	
 	lwesp_resp_t resp;
 	
 	vTaskDelay(3000);
@@ -85,20 +83,51 @@ void vWifiTask(void *pvParameters) {
 	lwesp_client_t lwesp_client;
 	
 	lwesp_init(&lwesp_client);
-	
-
-	for (;;) {
 		
-		resp = lwesp_client.basic.lwesp_check_alive();
+	resp = LWESP_RESP_UNKNOW;
+	resp = lwesp_client.basic.lwesp_check_alive();
 	
-		if (resp == LWESP_RESP_OK) {
-			writePin(LED_GREEN_PIN, led_stat);
-			vTaskDelay(100);
-			led_stat = !led_stat; 
-		}
-		resp = LWESP_RESP_UNKNOW;
+	if (resp == LWESP_RESP_OK) {
+		printf("LWESP AT Reply OK \r\n");
 	}
 	
+	resp = LWESP_RESP_UNKNOW;
+	resp = lwesp_client.basic.lwesp_reset_chip();
+	
+	if (resp == LWESP_RESP_OK) {
+		printf("LWESP Reset Chip Ready \r\n");
+	}
+
+	lwesp_basic_at_version_t at_version;
+	
+	resp = LWESP_RESP_UNKNOW;
+	resp = lwesp_client.basic.lwesp_check_version(&at_version);
+	
+	if (resp == LWESP_RESP_OK) {
+		printf("LWESP Version Show OK \r\n");
+		printf("AT Version %s \r\n", at_version.at_version_info);
+		printf("SDK Version %s \r\n", at_version.sdk_version_info);
+		printf("Bin Version %s \r\n", at_version.bin_version);
+	}
+	
+	resp = LWESP_RESP_UNKNOW;
+	resp = lwesp_client.basic.lwesp_set_commands_echo(LWESP_AT_ECHO_OFF);
+	
+	if (resp == LWESP_RESP_OK) {
+		printf("LWESP Echo Off \r\n");
+	}
+		
+	resp = LWESP_RESP_UNKNOW;
+	resp = lwesp_client.basic.lwesp_check_alive();
+	
+	if (resp == LWESP_RESP_OK) {
+		printf("LWESP AT Reply OK \r\n");
+	}
+	
+	for (;;) {
+		
+			
+	}
 }
 
 

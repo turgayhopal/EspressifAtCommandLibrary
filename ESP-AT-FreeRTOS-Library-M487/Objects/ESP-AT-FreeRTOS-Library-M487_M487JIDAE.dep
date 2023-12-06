@@ -1,6 +1,6 @@
 Dependencies for Project 'ESP-AT-FreeRTOS-Library-M487', Target 'M487JIDAE': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\Application\Src\main.c)(0x656E37B9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\Application\Src\main.c)(0x6570C509)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Application\Inc\main.h)(0x656E03DB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
@@ -99,7 +99,7 @@ I (..\M480_BSP\Library\StdDriver\inc\otg.h)(0x64118838)
 I (..\M480_BSP\Library\StdDriver\inc\hsotg.h)(0x64118838)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\projdefs.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\portable.h)(0x6411885E)
@@ -113,14 +113,14 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\queue.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp.h)(0x656E02F1)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_include.h)(0x656E0400)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x656E339F)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x656E34CC)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x6570C3C8)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x6570BA79)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)
 F (.\Application\Inc\main.h)(0x656E03DB)()
-F (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)()
+F (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)()
 F (..\M480_BSP\Library\StdDriver\src\sys.c)(0x64118838)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
@@ -590,7 +590,7 @@ F (..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c)(0x64118
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -694,7 +694,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -798,7 +798,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -904,7 +904,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1010,7 +1010,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1116,7 +1116,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1215,18 +1215,18 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\mpu_wrappers.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\task.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\list.h)(0x6411885E)
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)()
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)()
 F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp.h)(0x656E02F1)()
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp.c)(0x656E31A9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp.o --omf_browse .\objects\lwesp.crf --depend .\objects\lwesp.d)
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp.c)(0x6570C3EC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp.o --omf_browse .\objects\lwesp.crf --depend .\objects\lwesp.d)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp.h)(0x656E02F1)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_include.h)(0x656E0400)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x656E339F)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x6570C3C8)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1328,21 +1328,21 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\list.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\timers.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\queue.h)(0x6411885E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x656E34CC)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x6570BA79)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)
 F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_include.h)(0x656E0400)()
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)()
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)()
 F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)()
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_ll_m480.c)(0x656E0234)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_ll_m480.o --omf_browse .\objects\lwesp_ll_m480.crf --depend .\objects\lwesp_ll_m480.d)
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_ll_m480.c)(0x656F6D50)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_ll_m480.o --omf_browse .\objects\lwesp_ll_m480.crf --depend .\objects\lwesp_ll_m480.d)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1444,17 +1444,17 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\list.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\timers.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\queue.h)(0x6411885E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x656E339F)()
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_at_basic.c)(0x656E3889)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_at_basic.o --omf_browse .\objects\lwesp_at_basic.crf --depend .\objects\lwesp_at_basic.d)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x656E339F)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x6570C3C8)()
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_at_basic.c)(0x6570C426)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_at_basic.o --omf_browse .\objects\lwesp_at_basic.crf --depend .\objects\lwesp_at_basic.d)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_at_basic.h)(0x6570C3C8)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1556,18 +1556,18 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\list.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\timers.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\queue.h)(0x6411885E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x656E34CC)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x6570BA79)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_sys.c)(0x656E3875)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_sys.o --omf_browse .\objects\lwesp_sys.crf --depend .\objects\lwesp_sys.d)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x656E34CC)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x656E3459)
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_sys.c)(0x6570BBA7)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_sys.o --omf_browse .\objects\lwesp_sys.crf --depend .\objects\lwesp_sys.d)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x6570BA79)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_typedef.h)(0x6570C4F9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\FreeRTOS.h)(0x6411885E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
-I (.\Application\Inc\FreeRTOSConfig.h)(0x6550BC5B)
+I (.\Application\Inc\FreeRTOSConfig.h)(0x6570A468)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\NuMicro.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include\M480.h)(0x5F437B7C)
 I (C:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
@@ -1669,13 +1669,13 @@ I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\list.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\timers.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\semphr.h)(0x6411885E)
 I (..\M480_BSP\ThirdParty\FreeRTOS\Source\include\queue.h)(0x6411885E)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6567804E)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\config\lwesp_config.h)(0x6570A7C2)
 I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_ll_m480.h)(0x656E0239)
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x656E34CC)()
-F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)()
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_sys.h)(0x6570BA79)()
+F (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)()
 F (..\M480_BSP\ThirdParty\lwesp\lwesp\source\lwesp_queue.c)(0x656E3661)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\lwesp_queue.o --omf_browse .\objects\lwesp_queue.crf --depend .\objects\lwesp_queue.d)
-I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x656E4226)
+I (..\M480_BSP\ThirdParty\lwesp\lwesp\include\lwesp_queue.h)(0x6570A8B0)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F218C)
 F (RTE/Device/M487JIDAE/retarget.c)(0x5F437B7E)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\Application\Inc -I .\Application\Src -I .\Library\Inc -I .\Library\Src -I ..\M480_BSP\Library\StdDriver\inc -I ..\M480_BSP\Library\StdDriver\src -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\include -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\MemMang -I ..\M480_BSP\ThirdParty\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I ..\M480_BSP\ThirdParty\FreeRTOS\Demo\Common\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\config -I ..\M480_BSP\ThirdParty\lwesp\lwesp\include -I ..\M480_BSP\ThirdParty\lwesp\lwesp\source -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src\include -I ..\M480_BSP\ThirdParty\lwrb\lwrb\src-I.\RTE\_M487JIDAE-IC:\Users\Turgay\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\Include-IC:\Users\Turgay\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.17\Device\M480\StdDriver\inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_ -DLWRB_DISABLE_ATOMIC-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
